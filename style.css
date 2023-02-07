@@ -29,9 +29,12 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    background-color: white;
 }
 
 nav ul {
@@ -46,5 +49,46 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: gray;
+    color: #777;
+}
+
+main img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Roboto Slab";
+}
+
+h4 {
+    font-family: "Roboto Slab";
+    font-size: 1.1rem;
+}
+
+h5 {
+    color: red;
+    font-family: "Roboto Slab";
+    font-size: 1rem;
+}
+
+p {
+    padding: 0 1rem 0 1rem;
+}
+
+.more-articles {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 3rem;
+    border-top: 1px solid #eee;
+    padding: 2rem;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+}
+
+section img {
+    width: 100%;
 }
